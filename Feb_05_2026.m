@@ -35,3 +35,19 @@ if mod(x,2)==0
 else 
     disp('The number is odd');
 end
+
+%%  Example 5
+% Chaining elseif statements
+x = input('Enter a number between 1 and 100 ');
+if x >= 90
+    disp('A');
+elseif x >= 80
+    disp('B');
+elseif x >= 70
+    disp('C');
+elseif x >= 60
+    disp('D');
+elseif x < 60
+    disp('F');
+end
+    
