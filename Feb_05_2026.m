@@ -51,3 +51,21 @@ elseif x < 60
     disp('F');
 end
     
+
+%% Example 6
+% Absolute value function
+x = input('Enter an integer ');
+if x < 0
+    x = -x;
+end 
+disp(x);
+
+%% Example 7
+% Voter Eligibility
+x = input('What is your age ');
+y = input('Enter 1 if you are a citizen, 0 if you are not ');
+if (x >= 18 && y)
+    disp('You are eligible');
+else 
+    disp('You are not eligible');
+end
