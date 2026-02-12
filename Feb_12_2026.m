@@ -57,3 +57,40 @@ end
 for i = 1:6
     disp(i^2);
 end
+
+%% Example 7
+% Multiplying all number 
+
+v = [2 4 6];
+for i = 1:length(v)
+    v(i) = 3 * v(i);
+end
+disp(v)
+
+%% Example 8
+% Factorial
+
+fact = 100;
+product = 1;
+for i = 1:fact
+    product = product * i;
+end
+disp(product);
+
+%% Example 9
+% While loops
+
+i = 1;
+while i <= 7
+    disp(i);
+    i = i + 1;
+end
+
+%% Example 10 
+% Printing even numbers less than 10
+
+i = 2;
+while i < 10
+    disp(i);
+    i = i + 2;
+end
