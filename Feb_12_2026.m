@@ -94,3 +94,16 @@ while i < 10
     disp(i);
     i = i + 2;
 end
+
+i = 1;
+sum = 0;
+
+%% Example 11
+% Adding numbers that are themselves incrementing by one, while the sum is
+% less than 20
+
+while sum + i <= 20
+    sum = i + sum;
+    i = i + 1;
+end
+disp(sum);
