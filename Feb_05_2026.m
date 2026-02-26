@@ -67,5 +67,5 @@ y = input('Enter 1 if you are a citizen, 0 if you are not ');
 if (x >= 18 && y)
     disp('You are eligible');
 else 
-    disp('You are not eligible');
+    disp('You are not eligible');efweg
 end
